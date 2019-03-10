@@ -1,0 +1,25 @@
+.container {
+    position: relative;
+}
+
+.feed-button {
+    height: 100%;
+}
+
+.feed-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #1abc9c;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    max-width: 80vw;
+    transform: translateX(-42%);
+}
+
+
+.feed-list > li {
+    height: 50px;
+    
+}
