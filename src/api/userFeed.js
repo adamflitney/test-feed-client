@@ -1,5 +1,5 @@
-const PORT = process.env.PORT || 3001
-const API_URL = process.env.API_URL || `http://localhost:${PORT}/userfeed`;
+const API_PORT = process.env.REACT_APP_API_PORT || 3001
+const API_URL = process.env.REACT_APP_API_URL || `http://localhost:${API_PORT}/userfeed`;
 
 const getUserFeed = () => {
     return (
