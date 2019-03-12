@@ -6,3 +6,8 @@ header {
   align-items: center;
   justify-content: center;
 }
+
+.app {
+  user-select: none;
+}
+

@@ -8,18 +8,55 @@
 
 .feed-list {
     position: absolute;
-    top: 100%;
+    top: 105%;
     left: 0;
-    background-color: #1abc9c;
+    background-color: #eee;
     display: flex;
     flex-direction: column;
     width: 500px;
-    max-width: 80vw;
-    transform: translateX(-42%);
+    max-width: 95vw;
+    transform: translateX(-44%);
+}
+
+.number-badge {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 1em;
+    width: 1em;
+    border-radius: 50%;
+    color: #fff;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.number-badge > span {
+    transform: translateY(-5%);
 }
 
 
 .feed-list > li {
-    height: 50px;
-    
+    height: 50px;   
+}
+
+.notification {
+    padding: 1em;
+    border-bottom: solid 1px rgb(199, 199, 199);
+}
+
+.notification:hover {
+    background-color: #ddd;
+}
+
+.notification > .names {
+    color: #1abc9c;
+    font-weight: bold;
+}
+
+.notification > .postTitle {
+    font-style: italic;
+    font-weight: bold;
 }
