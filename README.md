@@ -1,5 +1,5 @@
 # Test Feed Client
-A React web client with a single component for a notification feed created as part of a technical test.
+A React web client with a single component for a notification feed.
 
 Written in ReactJS with create-react-app CLI. The web client retrieves notification feed data from a NodeJS REST API and displays a summarised list of the data when the bell icon is clicked.
 
